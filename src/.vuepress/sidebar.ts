@@ -25,10 +25,24 @@ export default sidebar({
   ],
   "/knowledge/": [
     {
-      text: "前端",
+      text: "前端基础",
       icon: "book",
       prefix: "web/",
       link: "web/",
+      children: "structure",
+    },
+    {
+      text: "TypeScript",
+      icon: "book",
+      prefix: "TypeScript/",
+      link: "TypeScript/",
+      children: "structure",
+    },
+    {
+      text: "Docker",
+      icon: "book",
+      prefix: "docker/",
+      link: "docker/",
       children: "structure",
     },
   ]
